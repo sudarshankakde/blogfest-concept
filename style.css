@@ -1,0 +1,82 @@
+/* .container,.row{
+    border: thin solid red;
+} */
+#head_text{
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+    border-right: 1px solid grey;
+    text-transform: capitalize;
+}   
+.head_sub_text{
+    font-size: small;
+    margin: 3px;
+    text-align:left ;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+.head_sub_text::first-letter{
+    color: red;
+}
+#sing_in_with{
+    font-size: x-small;
+    text-align: left;
+    border-bottom: solid thin rgb(158, 154, 154);
+}
+.btn{
+    padding: 3px 30px;
+}
+/* login boxes */
+#singin_box{
+    border-right: thin solid rgb(158, 154, 154);
+    opacity: 0.8;
+}
+/* buttons */
+#btn-singin
+{
+    text-align: right;
+    border-right: thin solid rgb(158, 154, 154);
+}
+#btn-register
+{
+    text-align: left;
+}
+.sub-nav-text{
+    font-size: small;
+    margin: 3px;
+    opacity: 0.8;
+}
+.main-nav-text{
+    font-size: large;
+    font-weight: bold;
+    opacity: 0.8;
+    text-transform: uppercase
+}
+.nav-section{
+    border-right: 1.5px solid rgb(158, 154, 154);
+}
+/* second header section */
+.rounded-icon{
+    font-size: 20px;
+    color: white;
+    border: thin solid transparent;
+    background-color: grey;
+    padding: 03px;
+    border-radius: 50%;
+}
+#icons-search{
+    border:thin solid rgb(158, 154, 154);
+    border-left: transparent;
+    padding: 05% 0%;
+}
+#slider{
+    background-color: rgb(235, 233, 233);
+    padding: 15px;
+}
+.fa-superpowers,.fa-book,.fa-eercast{
+    font-size: 40px;
+}
+#grey{
+    background-color: rgb(189, 187, 187);
+    padding: 15px;
+}
