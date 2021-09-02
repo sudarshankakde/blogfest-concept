@@ -1,6 +1,6 @@
-/* .container,.row{
+.container,.row{
     border: thin solid red;
-} */
+}
 #head_text{
     font-size: 70px;
     font-weight: lighter;
@@ -14,6 +14,21 @@
     text-align:left ;
     text-transform: uppercase;
     opacity: 0.9;
+    padding-top: 5px;
+}
+/* media */
+@media (max-width:572px) {
+    .head_sub_text{
+        /* font-size: x-small; */
+        /* visibility: hidden; */
+    }
+    #head_text{
+        font-size: 35px;
+        text-align: center;
+        border-right: transparent;
+        font-weight: bold;
+
+    }
 }
 .head_sub_text::first-letter{
     color: red;
@@ -25,6 +40,9 @@
 }
 .btn{
     padding: 3px 30px;
+    font-style: normal;
+    font-weight: bold;
+    opacity:initial;
 }
 /* login boxes */
 #singin_box{
@@ -68,6 +86,7 @@
     border:thin solid rgb(158, 154, 154);
     border-left: transparent;
     padding: 05% 0%;
+    border-right: transparent;
 }
 #slider{
     background-color: rgb(235, 233, 233);
@@ -83,9 +102,9 @@
 footer{
     background-color: rgb(202, 200, 200);
     padding: 10px 0px;
-    
+
 }
-footer>b{
+.footer>b{
     padding: 0px 10px;
     border-right: thin solid grey;
     font-weight: bold;
@@ -94,7 +113,7 @@ footer>b{
 #last-footer-element{
     border-right: transparent;
 }
-footer>.fa{
+.footer>.fa{
     float: right;
     margin: 0px 5px;
 }
