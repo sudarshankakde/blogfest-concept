@@ -80,3 +80,25 @@
     background-color: rgb(189, 187, 187);
     padding: 15px;
 }
+footer{
+    background-color: rgb(202, 200, 200);
+    padding: 10px 0px;
+    
+}
+footer>b{
+    padding: 0px 10px;
+    border-right: thin solid grey;
+    font-weight: bold;
+    opacity: 0.8;
+}
+#last-footer-element{
+    border-right: transparent;
+}
+footer>.fa{
+    float: right;
+    margin: 0px 5px;
+}
+.fa-wifi{
+    transform: rotate(45deg);
+    
+}
