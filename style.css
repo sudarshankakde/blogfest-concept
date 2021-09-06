@@ -109,7 +109,7 @@ footer{
 }
 
 /* media */
-@media (max-width:576px) {
+@media (max-width:576px){
     body{
         overflow-x:hidden;
     }
@@ -134,10 +134,11 @@ footer{
     }
     footer{
         position: absolute;
-        top: 175%;
+        top: 165%;
         width: 100%;
         margin: 0;
         left: 0;
+        
     }
 }
 /* .row{
