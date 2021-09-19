@@ -54,7 +54,13 @@
     font-size: large;
     font-weight: bold;
     opacity: 0.8;
-    text-transform: uppercase
+    text-transform: uppercase;
+    
+}
+.main-nav-text>a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
 }
 .nav-section{
     border-right: 1.5px solid rgb(158, 154, 154);
@@ -90,11 +96,15 @@ footer{
     padding: 10px 0px;
 
 }
-.footer>b{
+.footer>a>b{
     padding: 0px 10px;
     border-right: thin solid grey;
     font-weight: bold;
     opacity: 0.8;
+}
+.footer>a{
+    color: black;
+    text-decoration: none;
 }
 #last-footer-element{
     border-right: transparent;
@@ -107,7 +117,9 @@ footer{
     transform: rotate(45deg);
     
 }
-
+.fa-facebook{
+    padding: 4px 8px;
+}
 /* media */
 @media (max-width:576px){
     body{
@@ -141,12 +153,3 @@ footer{
         
     }
 }
-/* .row{
-    border: thin solid red;
-}
-.container{
-    border: thin solid skyblue;
-} */
-/* .container-fluid{
-    border: thin solid green;
-} */

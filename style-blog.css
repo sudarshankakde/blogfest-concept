@@ -1,0 +1,52 @@
+.blog{
+    position:relative;
+    top:10%;
+    overflow-y:scroll;
+    height: 75%;
+}
+/* body{
+    background-color: #181818;
+    color: white;
+    transition: 0.5s;
+} */
+#home{
+    font-size: 30px;
+    position: sticky;
+    left: 0%;
+    top:100px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:teal;
+    transition: 0.3s;
+}
+a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+b{
+    opacity: 0.7;
+}
+footer{
+    position:static;
+}

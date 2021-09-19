@@ -1,0 +1,87 @@
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0.7;
+
+}
+input , #text-area{
+    background-color: transparent;
+    width:40%;
+    border: thin solid rgb(158, 154, 154);
+
+}
+button{
+    border: thin solid rgb(158, 154, 154);
+    padding: 0 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+button:hover{
+    opacity: 1;
+}
+main{
+    background-color: whitesmoke;
+}
+
+.sub-heading{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.socail>a>i{
+    font-size: 30px;
+    padding: 0 15px;
+    text-decoration: none;
+    color:blue ;
+    opacity: 0.6;
+}
+.socail>a>i:hover{
+    opacity: 1;
+}
+.contact-detais>a{
+    text-decoration: none;
+    color: blue;
+    opacity: 0.8;
+}
+.contact-detais>a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+vl{
+    border-right: thin solid rgb(158, 154, 154);
+    margin: 0 10px;
+}
+
+footer{
+    background-color: rgb(202, 200, 200);
+
+}
+.footer>a>b{
+    padding: 0px 10px;
+    border-right: thin solid grey;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.footer>a{
+    color: black;
+    text-decoration: none;
+}
+#last-footer-element{
+    border-right: transparent;
+}
+.footer>.fa{
+    float: right;
+    margin: 0px 5px;
+}
+.rounded-icon{
+    font-size: 20px;
+    color: white;
+    border: thin solid transparent;
+    background-color: grey;
+    padding: 03px;
+    border-radius: 50%;
+}
+.form-control{
+    background-color: transparent;
+}

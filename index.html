@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogfest Concept</title>
+    <title>HOME | Blogfest Concept</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -27,22 +27,24 @@
                 <div class=" container-fluid mb-4">
                     <!-- for blogfest concept  -->
                     <div class="row">
-                        <div class="col-lg-8 mt-3 col-12 col-sm-8">
+                        <div class="col-lg-8 mt-3 col-12 col-sm-8 ml-lg-5  ml-0">
                             <p id="head_text">Blogfest Concept</p>
                         </div>
-                        <div class="col-lg-4 mt-0 mt-lg-4 mt-sm-4 col-sm-4 col-12">
+                        <div class="col-lg-3 mt-0 mt-lg-4 mt-sm-4 col-sm-4 col-12">
                             <p class="head_sub_text">ALL Lorem.</p>
                             <p class="head_sub_text">second Lorem.</p>
                             <p class="head_sub_text">third Lorem.lorem.</p>
-                            <p class="head_sub_text">fourth Lorem. Lorem, ipsum.</p>
+                            <p class="head_sub_text">fourth Lorem.</p>
                         </div>
+                        <!-- col-1  is not apllyed because of ml-lg-5 if weaplly it . It will casuse to overflow  -->
                     </div>
                 </div>
                 <!-- for navbar -->
                 <div class="container-fluid">
                     <div class="row" id="nabar">
-                        <div class="col-lg-2  col-4 col-sm-2 nav-section">
-                            <p class="main-nav-text">Home</p>
+                        <!-- home -->
+                        <div class="col-lg-2  col-4 col-sm-2 nav-section ml-lg-2 ml-sm-2 ml-0">
+                            <p class="main-nav-text"><a href="index.html">Home</a></p>
                             <p class="sub-nav-text">
                                 Home2
                             </p>
@@ -53,8 +55,9 @@
                                 Home4
                             </p>
                         </div>
-                        <div class="col-lg-2  col-4 col-sm-2 nav-section">
-                            <p class="main-nav-text">Features</p>
+                        <!-- fetures -->
+                        <div class="col-lg-2  col-4 col-sm-2 nav-section ml-lg-2 ml-sm-2 ml-0">
+                            <p class="main-nav-text"><a href="features.html">Features</a></p>
                             <p class="sub-nav-text">
                                 FAQ
                             </p>
@@ -65,8 +68,9 @@
                                 Adviertsing
                             </p>
                         </div>
-                        <div class="col-lg-2 col-4 col-sm-2  nav-section">
-                            <p class="main-nav-text">photfolio</p>
+                        <!-- photfolio -->
+                        <div class="col-lg-2 col-4 col-sm-2  nav-section ml-lg-2 ml-sm-2 ml-0">
+                            <p class="main-nav-text"><a href="photfolio.html">photfolio</a></p>
                             <p class="sub-nav-text">
                                 photfolio 1
                             </p>
@@ -77,20 +81,9 @@
                                 photfolio 3
                             </p>
                         </div>
-                        <div class="col-lg-2  col-4 col-sm-2 nav-section mt-2 mt-lg-0 mt-sm-0 ">
-                            <p class="main-nav-text">style</p>
-                            <p class="sub-nav-text">
-                                elemnet
-                            </p>
-                            <p class="sub-nav-text">
-                                heading
-                            </p>
-                            <p class="sub-nav-text">
-                                table
-                            </p>
-                        </div>
-                        <div class="col-lg-2 col-4 col-sm-2  nav-section mt-2 mt-lg-0 mt-sm-0 ">
-                            <p class="main-nav-text">bloging</p>
+                        <!-- BLOG-->
+                        <div class="col-lg-2 col-4 col-sm-2  nav-section mt-2 mt-lg-0 mt-sm-0 ml-lg-2 ml-sm-2 ml-0 ">
+                            <p class="main-nav-text"><a href="blog.html">blog</a></p>
                             <p class="sub-nav-text">
                                 catagoury
                             </p>
@@ -101,8 +94,9 @@
                                 Lorem, ipsum.
                             </p>
                         </div>
-                        <div class="col-lg-1 col-4 col-sm-2  mt-2 mt-lg-0 mt-sm-0 ">
-                            <p class="main-nav-text">contact</p>
+                        <!-- contact  -->
+                        <div class="col-lg-1 col-4 col-sm-2  mt-2 mt-lg-0 mt-sm-0 ml-lg-2 ml-sm-2 ml-0">
+                            <p class="main-nav-text"><a href="contact.html">contact</a></p>
 
                         </div>
                     </div>
@@ -487,12 +481,11 @@
                                 class="col-lg-8 footer col-sm-12 col-12 mt-2 mb-2 text-center text-lg-left text-sm-center mb-lg-1 mb-sm-1">
                                 <!-- footer  -->
 
-                                <b>home</b>
-                                <b>Features</b>
-                                <b>products</b>
-                                <b>satuts</b>
-                                <b>blog</b>
-                                <b id="last-footer-element">contact</b>
+                                <a href="index.html"><b>home</b></a>
+                                <a href="features.html"><b>Features</b></a>
+                                <a href="photfolio.html"><b>photfolio</b></a>
+                                <a href="blog.html"><b>blog</b></a>
+                                <a href="contact.html"><b id="last-footer-element">contact</b></a>
                             </div>
                             <div
                                 class="col-lg-4  col-sm-12  col-12 text-lg-right text-sm-center   text-center mt-2 mb-2  mb-lg-1 mb-sm-1">
